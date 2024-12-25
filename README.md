@@ -25,7 +25,7 @@ This Python script automates the process of downloading images and videos from a
 
 **2. Download ChromeDriver:**
 
-- Download the correct version of ChromeDriver based on your browser version from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
+- Download the correct version of ChromeDriver based on your browser version from [here](https://googlechromelabs.github.io/chrome-for-testing/#stable). Be sure to select **chromedriver** and **NOT** chrome or chrome-headless-shell.
 - Make sure to place the `chromedriver.exe` file in the appropriate path (update `chrome_driver_path` in the script).
 
 **3. Update Folder Paths:**
