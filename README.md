@@ -1,6 +1,6 @@
 ## Fotoshare Downloader Script
 
-This Python script automates the process of downloading images and videos from a Fotoshare gallery and organizing them into folders based on the thumbnail index. The script uses Selenium WebDriver to interact with a Fotoshare URL, click on thumbnails to view the gallery, and download the associated images or videos (.jpg, .mp4). Once the files are downloaded, they are moved into specific folders named according to the thumbnail index.
+Currenty, Fotoshare does not allow you to download all photos to a directory and each file must be downloaded manually. This Python script automates the process of downloading **ALL** images and videos from a Fotoshare gallery and organizing them into folders based on the thumbnail index. The script uses Selenium WebDriver to interact with a Fotoshare URL, click on thumbnails to view the gallery, and download the associated images or videos (.jpg, .mp4). Once the files are downloaded, they are moved into specific folders named according to the thumbnail index.
 
 ## Features
 
