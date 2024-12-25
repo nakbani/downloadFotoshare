@@ -24,3 +24,25 @@ This Python script automates the process of downloading images and videos from a
 
    ```bash
    pip install selenium
+2. ### Download ChromeDriver:
+
+- Download the correct version of ChromeDriver based on your browser version from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
+- Make sure to place the `chromedriver.exe` file in the appropriate path (update `chrome_driver_path` in the script).
+
+3. ### Update Folder Paths:
+
+- In the script, set the `downloads_folder` to your default downloads folder path.
+- Set the `fotoshare_folder` to the folder where you want to save the downloaded images and videos.
+
+## Usage
+
+1. ### Edit the Script:
+
+- Update the `chrome_driver_path` with the path to your `chromedriver.exe`.
+- Set the `url` variable to the Fotoshare gallery URL that you want to scrape.
+- Modify the `downloads_folder` and `fotoshare_folder` variables to match your local paths.
+
+2. ### Run the Script:
+
+```bash
+python fotoshare_downloader.py
