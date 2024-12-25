@@ -20,8 +20,7 @@ Currenty, Fotoshare does not allow you to download all photos to a directory and
 
 **1. Install Python dependencies:**
 
-     ```bash
-     pip install selenium
+     `pip install selenium`
 
 **2. Download ChromeDriver:**
 
@@ -43,8 +42,7 @@ Currenty, Fotoshare does not allow you to download all photos to a directory and
 
 **2. Run the Script:**
 
-    ```bash
-    python fotoshare_downloader.py
+    `python fotoshare_downloader.py`
 
 **3. The script will:**
 
