@@ -46,6 +46,7 @@ This Python script automates the process of downloading images and videos from a
 
 ```bash
 python fotoshare_downloader.py
+
 3. **The script will:**
 
 - Open the Fotoshare gallery URL in a web browser.
